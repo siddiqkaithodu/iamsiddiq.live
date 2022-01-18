@@ -18,7 +18,6 @@ body {
   background-color: #040404;
   color: #fff;
   position: relative;
-  height:100%;
   background: transparent;
 }
 body::before {
