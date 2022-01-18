@@ -11,12 +11,14 @@
 html
 {
 overflow:auto;
+height:100%;
 }
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
   color: #fff;
   position: relative;
+  height:100%;
   background: transparent;
 }
 body::before {
