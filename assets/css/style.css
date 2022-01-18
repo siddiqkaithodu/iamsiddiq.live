@@ -8,11 +8,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-Hhtml
-{
-overflow:auto;
-height:100%;
-}
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
