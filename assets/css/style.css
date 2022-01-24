@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 @font-face {
     font-family: batman;
-    src:url("https://www.iamsiddiq.me/assets/fonts/batmfo__.ttf");
+    src:url("batmfo__.ttf");
 }
 body {
   font-family: batman;/*, "Open Sans", sans-serif;*/
