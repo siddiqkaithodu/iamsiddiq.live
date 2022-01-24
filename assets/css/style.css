@@ -13,7 +13,7 @@
     src:url("https://www.iamsiddiq.me/assets/fonts/batmfo__.ttf");
 }
 body {
-  font-family: batman, "Open Sans", sans-serif;
+  font-family: batman;/*, "Open Sans", sans-serif;*/
   background-color: #040404;
   color: #fff;
   position: relative;
