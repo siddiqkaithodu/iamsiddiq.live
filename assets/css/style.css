@@ -8,8 +8,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+    font-family: batman;
+    src:url("https://iamsiddiq.me/assets/fonts/batmfo__.ttf");
+src:;
+}
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: batman, "Open Sans", sans-serif;
   background-color: #040404;
   color: #fff;
   position: relative;
