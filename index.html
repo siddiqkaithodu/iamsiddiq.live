@@ -754,7 +754,7 @@ setTimeout(function () {
         </div>
       </div>
 
-      <form name="contact" method="post" role="form" class="php-email-form mt-4">
+      <form name="contact" onsubmit="return checker();" method="post" role="form" class="php-email-form mt-4">
         <div class="row">
           <div class="col-md-6 form-group">
             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -795,9 +795,9 @@ setTimeout(function () {
   <script src="assets/js/main.js"></script>
   <script>
   let e=document.querySelector("#contact");
+  function checker{ 
+  e.preventDefault(); 
   let m=document.querySelector("#form_error");
-  e.onsubmit()=>{ 
-  e.preventDefault();
   m.innerHTML="Currently The Messaging System is Under Maintenance!'; 
   return false;
   }
