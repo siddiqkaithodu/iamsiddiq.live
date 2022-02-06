@@ -798,7 +798,8 @@ setTimeout(function () {
   let m=document.querySelector("#form_error");
   e.onsubmit()=>{ 
   e.preventDefault();
-  m.innerHTML="Currently The Messaging System is Under Maintenance!';
+  m.innerHTML="Currently The Messaging System is Under Maintenance!'; 
+  return false;
   }
   </script>
 </body>
