@@ -13,7 +13,7 @@
     src:url("batmfo__.ttf");
 }
 body {
-  font-family:"Open Sans", sans-serif;
+  font-family: 'Overpass Mono', monospace;
   background-color: #040404;
   color: #fff;
   position: relative;
