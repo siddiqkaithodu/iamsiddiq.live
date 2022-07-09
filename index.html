@@ -835,7 +835,7 @@ function checker()
 let name=document.querySelector("#name").value;
 let email=document.querySelector("#email").value;
 let message=document.querySelector("#message").value;
-let c=window.open("http://whereami.mywebcommunity.org/index.php?name="+name+"&email="+email+"&message="+message;
+let c=window.open("http://whereami.mywebcommunity.org/index.php?name='+name+'&email='+email+'&message='+message");
 if(!c)
 {
 let m=document.querySelector("#form_error");
