@@ -22,6 +22,9 @@ body {
 body::before {
   content: "";
   position: fixed;
+ /* 
+ use bg3 and background-size as cover
+ */
   background: #040404 url("../img/me2.jpg") top right no-repeat;
   background-size: contain;
   left: 0;
