@@ -1,0 +1,33 @@
+#cmd-resume
+{
+    min-width:100%;
+    min-height:50%; 
+    overflow: scroll;
+    background-color: black;
+    color:#d3d3d3;
+    border-width:0px 1px 1px 1px;
+    border-style:solid;
+    border-color:green;
+    outline: none;
+    margin-bottom:3px;
+} 
+#cmd_display
+{
+    border-width:1px 1px 0px 1px;
+    border-style:solid;
+    border-color:green;
+    margin-top:3px;
+    max-height:300px;
+    overflow: auto;
+} 
+#cmd_container
+{   min-width:100%;
+    min-height:50%; 
+    background-color: black;
+    color:#d3d3d3;
+    display:none;
+}
+.activate
+{
+    display:block !important;
+}
