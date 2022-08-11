@@ -19,6 +19,8 @@
     margin-top: 3px;
     max-height: 300px;
     overflow: auto;
+    max-width: 96vw;
+    overflow-wrap: break-word;
 }
 #cmd_container
 {
