@@ -10,7 +10,7 @@ const output = {
 }
 function clearscreen() {
     cmd_display.innerHTML = '';
-    return '>>$ Type help for list of commands';
+    return '>>$ Hi Human.I am Cipher ,a friendly bot commissioned by sid.He made me to talk about him to others.<br>>>$ Type help for list of commands';
 }
 function dotasks(code) {
     code = code.substring(4).toLowerCase();
