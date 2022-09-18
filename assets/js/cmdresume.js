@@ -4,9 +4,9 @@ const cmd_container = document.querySelector("#cmd_container");
 const cmd_display = document.querySelector("#cmd_display");
 const cmd_resume = document.querySelector("#cmd-resume");
 const output = {
-    'introduce': 'Sid is a Self Taught programer.He loves to learn new technologies and skills.',
-    'skills': 'He says he is somewhat skilled in <br>HTML,JAVASCRIPT,CSS,PHP,MySQL,Python,C/C++,Java and PostGrSQL',
-    'education': 'He is a MCA student since 2020<br>He graduated in BSC Computer Science at PMSA COLLEGE OF ARTS AND SCIENCE in the period of 2017-2020'
+    'introduce': 'He is a Self Taught programer.He loves to learn new technologies and skills on his own',
+    'skills': 'He is somewhat skilled in <br>HTML,JAVASCRIPT,CSS,PHP,MySQL,Python,C/C++,Java and PostGrSQL',
+    'education': 'He is a MCA student since 2020<br>He graduated in BSC Computer Science in the period of 2017-2020'
 }
 function clearscreen() {
     cmd_display.innerHTML = '';
