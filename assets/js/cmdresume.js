@@ -4,7 +4,7 @@ const cmd_container = document.querySelector("#cmd_container");
 const cmd_display = document.querySelector("#cmd_display");
 const cmd_resume = document.querySelector("#cmd-resume");
 const output = {
-    'introduce': "He is a Self Taught who always looking for ways to improve his skills and stay up to date with the latest technologies and industry trends. He is constantly experimenting with new tools and techniques to enhance his abilities. He is committed to continuous learning and always strive to push the boundaries of what can achieve. Whether it's through  webinars, or forums, He always seeking out opportunities to improve his knowledge and hone his craft. In the end, his goal is to become a leading expert in his field and provide the best solutions for the need ful",
+    'introduce': "He is a Self Taught who always looking for ways to improve his skills and stay up to date with the latest technologies and industry trends. He is constantly experimenting with new tools and techniques to enhance his abilities. He is committed to continuous learning and always strive to push the boundaries of what can achieve. Whether it's through  webinars, or forums, He always seeking out opportunities to improve his knowledge and hone his craft. In the end, his goal is to become a leading expert in his field and provide the best solutions for the need ful \n Ouch.. That was weird",
     'skills': 'He is skilled in <br>Python,C/C++,Java,JAVASCRIPT,PHP,MySQL, and PostGrSQL',
     'education': 'MCA - 2020-2022 <br>BSC Computer Science - 2017-2020',
 }
