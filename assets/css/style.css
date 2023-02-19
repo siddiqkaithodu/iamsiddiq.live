@@ -28,7 +28,7 @@ body::before {
     /*
  use bg3 and background-size as cover to go to original version
  */
-    background: #101010 url("../img/bg3.jpg") top right no-repeat;
+    background: #101010 url("../img/me3.jpg") top right no-repeat;
     background-size: contain;
     left: 0;
     right: 0;
