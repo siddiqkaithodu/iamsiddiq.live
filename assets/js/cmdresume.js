@@ -13,12 +13,11 @@ function clearscreen() {
     return '>>$ Hi Human.<br>>>$ Type help for list of commands';
 }
 const s1="c29qYQ==";
-const s2="YW51";
 const msg1="WW91IG1lbnRpb25lZCBzb21ldGhpbmcgaW4gaGlzIHBlcnNvbmFsIGxpZmU=";
 const msg2="LkFzIHBlciB0aGUgc3RhbmRhcmQgcHJvdG9jb2wgZ2l2ZW4gdG8gbWUsIFlvdSB3aWxsIGJlIGJsb2NrZWQgZnJvbSBub3cgb24gZm9yIGEgbGltaXRlZCB0aW1lLg==";
 const msg=atob(msg1)+"😉"+atob(msg2);
 function dotasks(code) {
-    if((code.toLowerCase().indexOf(atob(s1))!=-1) || (code.toLowerCase().indexOf(atob(s2))!=-1))
+    if(code.toLowerCase().indexOf(atob(s1))!=-1))
     { 
         cmd_resume.disabled='false';
        
